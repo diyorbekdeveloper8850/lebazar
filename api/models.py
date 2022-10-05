@@ -41,7 +41,7 @@ class Products(models.Model):
         SubCategory, blank=True, null=True,  on_delete=models.CASCADE, related_name="products")
     title = models.CharField(max_length=255)
     description = models.CharField(max_length=800)
-    images = models.ImageField(blank=True, upload_to='')
+    images = models.ImageField(blank=True, upload_to='images/')
     created_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
