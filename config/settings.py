@@ -143,7 +143,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000"
 ]
 
-MEDIA_URL = '/images/'
+MEDIA_URL = ''
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
